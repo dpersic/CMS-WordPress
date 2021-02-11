@@ -1,0 +1,101 @@
+/*
+Theme Name: Nogometni klub
+Author: Domagoj Peršić 
+Description: Konstrukcijski zadatak
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: vsmti
+*/
+
+@media only screen and (min-width: 580spx) {
+	#navbarResponsive ul li a
+	{
+		color: white;
+		font-weight:800;
+	}
+}
+
+.navbar-toggler .fa-bars
+{
+	color: black;
+}
+
+@media only screen and (min-width: 992px) {
+	#navbarResponsive ul li a
+	{
+		color: red;
+		font-weight:800;
+	}
+}
+
+#vsmti-glavni-menu li a
+{
+	color: black;
+}
+
+.navbar-toggler .fa-bars
+{
+	color: black;
+}
+
+#navbarResponsive ul li 
+{
+	margin: 0 15px;
+}
+
+main
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#navbarResponsive ul li 
+{
+	margin: 0 15px;
+}
+
+main
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.nastavnik
+{
+	margin: 15px 25px;
+}
+
+.nastavnik_naziv
+{
+	margin-top:10px;
+	text-align: center;
+}
+
+.nastavnik .nastavnik_slika
+{
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nastavnik .nastavnik_slika
+{
+	width: 200px;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+
+.nastavnici_na_predmetu
+{
+	display: flex;
+	flex-direction:row;
+}
+
+
